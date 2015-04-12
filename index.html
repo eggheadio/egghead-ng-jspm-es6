@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+</head>
+<body ng-controller="MainController as vm">
+  <h2>Egghead.io: Angular + ES6 + JSPM</h2>
+  <h4>Scott Moss @scotups</h4>
+
+  <h3>{{ vm.title }}</h3>
+
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+
+  <script>System.import('app/app');</script>
+</body>
+</html>
